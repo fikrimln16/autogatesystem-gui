@@ -187,6 +187,10 @@ public class Login extends javax.swing.JFrame {
             securitypage.show();
             
             dispose();
+        } else if ("datascientist".equals(role)){
+            DataScientist_Dashboard_Home datascientistpage = new DataScientist_Dashboard_Home();
+            datascientistpage.show();
+            dispose();
         } else {
             label_akuntidaktersedia.setText(" akun tidak tersedia!");
         }
